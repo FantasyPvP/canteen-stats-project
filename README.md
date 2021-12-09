@@ -21,3 +21,4 @@ PROJECT UPDATE LOG (please enter a log every time you update the google drive wi
 09.12.21:
     - bugfixed grapher tool
     - you can now provide an x and y input (X can be a label or integer, Y must be an integer)
+    - created user profile generator in order to create test data for the algorithm
