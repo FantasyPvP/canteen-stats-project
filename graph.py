@@ -22,11 +22,3 @@ values = []
 for i in range(20):
     values.append(random.randint(0,50))
 
-grapher.bar(
-    positions, values, tick_label = keys, width = 0.8, color = ["red", "blue"]
-    )
-
-grapher.xlabel("item")
-grapher.ylabel("frequency")
-grapher.title("frequency of meals sold in the canteen")
-grapher.show()
